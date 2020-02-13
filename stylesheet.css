@@ -1,0 +1,220 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #777;
+    background: url("./assets/backgroundabout.png")
+    
+    }
+
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    
+    }
+    h3{
+        width: 250px;
+    }
+
+    
+    /* navigation bar */
+    li,a{
+        font-family: Georgia, 'Times New Roman', Times, serif
+        font
+        }
+       
+    .container{
+        width: 80%;
+        max-width: 960px;
+        margin: 0 auto;
+        clear: both;
+        
+    }
+            
+    }
+    header{
+        background-color: white;
+        position: fixed;
+        top: 0;
+        left: 0;
+        margin: 0;
+        width: 100%;
+        overflow: visible;
+        z-index: 1;
+    
+    }
+    header::after{
+        overflow: scroll;
+        content: '';
+        display: table;
+        clear: both;
+    
+        
+    }
+    nav{
+        float: right;
+        overflow: hidden;
+    
+    }
+    
+    nav ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    nav li{
+        display: inline-block;
+        margin-left: 15px;
+        padding-top: 30px;
+        
+    }
+    nav ul li a {
+        color: #337ab7;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 16px;
+    
+    }
+    
+    .navname{
+        float: left;
+        width: 250px;
+        height: 90px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 90px;
+        text-align: center;
+        text-decoration: none;
+        color: white;
+        background: #4aaaa5;
+    }
+    
+    /* body section */
+    
+    
+    .main-section{
+        float: left;
+        width: 100%;
+        max-width: 960px;
+        padding: 30px;
+        margin-top: 130px;
+        background: white;
+        margin-bottom: 130px;
+    
+    
+    }
+    .main-section h1{
+        margin-left: 26px;
+        color: #4aaaa5
+    
+    }
+    
+    
+    #main-container{
+        margin-top: 50px;
+    
+    
+    }
+    .logos{
+        position: relative;
+        max-width: 100%;
+        display:block;
+    }
+    .logos h3{
+        bottom: 120px;
+        position: relative;
+        left: 25px;
+        text-align: center;
+        background: aqua;
+        display: block;
+        padding: 15px;
+        color: white;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+
+    }
+
+        img{
+            position:sticky;
+            max-width: 100%;
+            height: 250px;
+            width: 250px;
+            margin: 25px;
+        
+        
+    }
+    /* //footer Section */
+    footer{
+        position: fixed;
+        bottom: 0px;
+        background: #777;
+        width: 100%;
+        color: white;
+        text-align: center;
+        padding: 4px 4px 0px;
+        border-top: solid 4px; 
+        border-color: #4aaaa5;
+    
+    }
+
+
+    .container-about{
+        float: left;
+        width: 100%;
+        max-width: 960px;
+        padding: 0 30px 30px;
+        margin-top: 180px;
+        background: white;
+    
+    
+    }
+    #about {
+        padding: 7px 59px 0px;
+        margin-bottom: 3px;
+        border-bottom: solid 1px
+    }
+    #bodycontain{
+        margin-top: 10px;
+    
+    }
+    .me{
+        text-align: justify;
+    
+    }
+    
+/* /contact section */
+    .contactcontainer{
+        float: left;
+        width: 100%;
+        max-width: 960px;
+        padding: 0 30px 30px;
+        margin-top: 180px;
+        background: white;
+    }
+    .contactcontainer h1{
+        padding-bottom: 7px;
+        border-bottom: solid 1px;
+        border-color: #777;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: #4aaaa5;
+        
+    }
+  
+    
+
+
+    #submit{
+        padding: 6px;
+        color: white;
+        background: #4aaaa5;
+    
+    }
+    .inputs{
+        width: 100%
+    }
+    .inputs1{
+        width: 100%;
+        height: 150px;
+    
+        
+    }
