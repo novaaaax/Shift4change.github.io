@@ -1,4 +1,4 @@
-# Homework2
+# Portfolio
  Bootstrap Portfolio.
  i created an index.html, portfolio.html and contact.html file.
 
