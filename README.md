@@ -2,7 +2,7 @@
 
 <a href="https://shift4change.github.io/portfolio.html">My Portfolio</a> 
 
-![](./assets/Portfolio.png) 
+![](./assets/portfolio.png) 
 My portfolio
 
 
